@@ -1,0 +1,53 @@
+apiVersion: v1
+entries:
+  pingaccess:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-01T12:21:01.562204+01:00"
+    description: A Sample PingAccess Helm chart
+    digest: f7dc27ad335078e13835c826916f7bd9b52a23840f00271c19d0548ae2354cbb
+    name: pingaccess
+    urls:
+    - pingaccess-0.1.tgz
+    version: "0.1"
+  pingdataconsole:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-01T12:21:01.562735+01:00"
+    description: A Sample PingDataConsole Helm chart
+    digest: c60007898dbffc87499e31579ec4ec6d90ac3f3cbb57a60c577bf8f81d50679a
+    name: pingdataconsole
+    urls:
+    - pingdataconsole-0.1.tgz
+    version: "0.1"
+  pingdelegator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-01T12:21:01.563306+01:00"
+    description: A Sample PingDelegator Helm chart
+    digest: ca8a79748918376a6dce543137abe0d5518fc122d57a2603033730e33098efac
+    name: pingdelegator
+    urls:
+    - pingdelegator-0.1.tgz
+    version: "0.1"
+  pingdirectory:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-01T12:21:01.56396+01:00"
+    description: A Sample PingDirectory Helm chart
+    digest: e3eba8d12667d74af20b5d296c7bdff40eab19620abc69643f579db616293bc5
+    name: pingdirectory
+    urls:
+    - pingdirectory-0.1.tgz
+    version: "0.1"
+  pingfederate:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-01T12:21:01.564649+01:00"
+    description: A Sample PingFederate Helm chart
+    digest: dcff85b0731565196ee442cbd695953ff3af7961544d4347224564929c7b8f74
+    name: pingfederate
+    urls:
+    - pingfederate-0.1.tgz
+    version: "0.1"
+generated: "2020-07-01T12:21:01.561398+01:00"
