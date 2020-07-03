@@ -3,7 +3,7 @@ entries:
   pingaccess:
   - apiVersion: v1
     appVersion: 6.1.0
-    created: "2020-07-02T10:02:22.150331+01:00"
+    created: "2020-07-03T12:32:08.204818+01:00"
     description: A Sample PingAccess Helm chart
     digest: d5b85f12f88de957f325e0f6ba646d707797e838d494dc3f7404917f0e94092b
     home: https://www.pingidentity.com/
@@ -18,7 +18,7 @@ entries:
   pingcentral:
   - apiVersion: v1
     appVersion: "1.4"
-    created: "2020-07-02T10:02:22.154444+01:00"
+    created: "2020-07-03T12:32:08.209164+01:00"
     description: A Sample PingCentral Helm chart
     digest: f05c3904311a320bea3f986fcfd6e8922c468d525c8407c9c1f341ac8a711965
     home: https://www.pingidentity.com/
@@ -33,7 +33,7 @@ entries:
   pingdataconsole:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-07-02T10:02:22.155168+01:00"
+    created: "2020-07-03T12:32:08.210087+01:00"
     description: A Sample PingDataConsole Helm chart
     digest: c601ceaa4751c1f69d846f9ee66171a10ffebd5097b2ecffb9dfe157c4aa73f2
     home: https://www.pingidentity.com/
@@ -48,7 +48,7 @@ entries:
   pingdelegator:
   - apiVersion: v1
     appVersion: 4.2.0
-    created: "2020-07-02T10:02:22.155955+01:00"
+    created: "2020-07-03T12:32:08.210965+01:00"
     description: A Sample PingDelegator Helm chart
     digest: dd8131b1a25ccbf91280832fe76ff5706fedec48a247d49a2a73ddc8305c2975
     home: https://www.pingidentity.com/
@@ -63,7 +63,7 @@ entries:
   pingdirectory:
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2020-07-02T10:02:22.157039+01:00"
+    created: "2020-07-03T12:32:08.21259+01:00"
     description: A Sample PingDirectory Helm chart
     digest: 2ca0256c82f09d9c6ae19050924282111b48738943eb6128b258b31e6f8710e3
     home: https://www.pingidentity.com/
@@ -78,7 +78,21 @@ entries:
   pingfederate:
   - apiVersion: v1
     appVersion: 10.1.0
-    created: "2020-07-02T10:02:22.158183+01:00"
+    created: "2020-07-03T12:32:08.217187+01:00"
+    description: A Sample PingFederate Helm chart with clustering
+    digest: 0621fcf45995e8b51dc095fe73124ba6de79db4b2f3284ed053ea6447470febe
+    home: https://www.pingidentity.com/
+    name: pingfederate
+    sources:
+    - https://github.com/patrickcping/pingidentity-helm-charts
+    - https://github.com/pingidentity/pingidentity-docker-builds
+    - https://github.com/pingidentity/pingidentity-server-profiles
+    urls:
+    - pingfederate-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 10.1.0
+    created: "2020-07-03T12:32:08.213736+01:00"
     description: A Sample PingFederate Helm chart
     digest: f710ad09a0f53a65b00c34c57e22175f04e6ad58b8e985fe8f34ea8cf24ca474
     home: https://www.pingidentity.com/
@@ -90,28 +104,4 @@ entries:
     urls:
     - pingfederate-0.1.1.tgz
     version: 0.1.1
-  pingfederate-cluster:
-  - apiVersion: v2
-    appVersion: 10.1.0
-    created: "2020-07-02T10:02:22.159728+01:00"
-    dependencies:
-    - alias: admin
-      name: pingfederate
-      repository: https://patrickcping.github.io/ping-identity-helm-charts-repo
-      version: 0.1.1
-    - alias: engine
-      name: pingfederate
-      repository: https://patrickcping.github.io/ping-identity-helm-charts-repo
-      version: 0.1.1
-    description: A Sample PingFederate cluster Helm chart
-    digest: c800ca43f2254b018248ddf26bb4d17ca2dd0b2b611e4a802e80066b551f7154
-    home: https://www.pingidentity.com/
-    name: pingfederate-cluster
-    sources:
-    - https://github.com/patrickcping/pingidentity-helm-charts
-    - https://github.com/pingidentity/pingidentity-docker-builds
-    - https://github.com/pingidentity/pingidentity-server-profiles
-    urls:
-    - pingfederate-cluster-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-07-02T10:02:22.148862+01:00"
+generated: "2020-07-03T12:32:08.199633+01:00"
